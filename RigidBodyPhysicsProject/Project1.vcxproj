@@ -151,17 +151,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\Downloads\imgui-1.89.5\imgui-1.89.5\imgui.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\..\Downloads\imgui-1.89.5\imgui-1.89.5\imgui_demo.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\..\Downloads\imgui-1.89.5\imgui-1.89.5\imgui_draw.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\..\Downloads\imgui-1.89.5\imgui-1.89.5\imgui_tables.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\..\Downloads\imgui-1.89.5\imgui-1.89.5\imgui_widgets.cpp" />
     <ClCompile Include="BakedScene.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="EBO.cpp" />
     <ClCompile Include="GJK.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="imgui_demo.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
     <ClCompile Include="imgui_impl_glfw.cpp" />
     <ClCompile Include="imgui_impl_opengl3.cpp" />
+    <ClCompile Include="imgui_tables.cpp" />
+    <ClCompile Include="imgui_widgets.cpp" />
     <ClCompile Include="MainScene.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="glad.c" />
