@@ -175,13 +175,19 @@ void SwitchSimulation(Scene* scene) {
 }
 
 void OpenSimulationScene(wchar_t szFile[260]) {
+	wchar_t* newSZFile = new wchar_t[260];
+	for (int i = 0; i < 260; i++)
+		newSZFile[i] = szFile[i];
 	SwitchSimulation(&simulationScene);
-	simulationScene.szFile = szFile;
+	simulationScene.szFile = newSZFile;
 	simulationScene.LoadSimulation();
 }
 
 void OpenBakedScene(wchar_t szFile[260]) {
+	wchar_t* newSZFile = new wchar_t[260];
+	for (int i = 0; i < 260; i++)
+		newSZFile[i] = szFile[i];
 	SwitchSimulation(&bakedScene);
-	bakedScene.szFile = szFile;
+	bakedScene.szFile = newSZFile;
 	bakedScene.LoadSimulation();
 }
