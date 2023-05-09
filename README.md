@@ -13,7 +13,7 @@ Libaries Used:
 -------------------------------------
 
 To use this software, ensure you have
-Blender and Visual Studio isntalled.
+Blender and Visual Studio installed.
 
 Download the whole repository and open
 the Project1.sln file. Make sure you are 
